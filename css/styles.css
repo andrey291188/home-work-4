@@ -112,6 +112,14 @@ button {
   background-color: var(--secondary-color);
 }
 
+.header-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 /* Style navigation */
 .page-nav.link .nav.list .site-nav.link {
   font-weight: 500;
@@ -175,8 +183,9 @@ button {
     url(../images/heroimage.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin-left: auto;
-  margin-right: auto ;
+  margin-right: auto;
 }
 
 .hero-item {
@@ -331,7 +340,7 @@ button {
   gap: 24px;
 }
 
-.social-li{
+.social-li {
   width: 40px;
   height: 40px;
 }
@@ -347,6 +356,7 @@ button {
 }
 
 .social-icon {
+  fill: #f4f4fd;
   display: flex;
   width: 16px;
   height: 16px;
@@ -355,7 +365,6 @@ button {
 .social-item:hover,
 .social-item:focus {
   background-color: #404bbf;
-
 }
 
 /* button portfolio htm */
@@ -426,6 +435,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
+  line-height: 1.1
 }
 .client-list {
   display: flex;
@@ -434,7 +444,7 @@ button {
   cursor: pointer;
 }
 
-.company-list{
+.company-list {
   width: 168px;
   height: 88px;
 }
@@ -445,17 +455,20 @@ button {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   background-size: content;
-  fill: #8e8f99;
+  /* fill: #8e8f99; */
+  color: #afb1b8;
 }
 .company-block:hover,
 .company-block:focus {
+  color: #404bbf;
   fill: #404bbf;
   border: 1px solid #404bbf;
 }
 .company-item {
+  fill: currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,19 +518,18 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(--secondary-color);
+  color: var(--white-color);
+  margin-bottom: 16px;
 }
 .footer-list {
   display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
-.footer-social {
-  margin-left: 120px;
-}
 .social-footer-list {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
 }
 .social-footer-icon {
   display: flex;
@@ -536,7 +548,9 @@ button {
 .social-icon-footer {
   display: flex;
   width: 24px;
-  height: 24px;}
+  height: 24px;
+  fill: #f4f4fd;
+}
 
 .social-footer-icon:hover,
 .social-footer-icon:focus {
