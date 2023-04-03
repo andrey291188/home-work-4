@@ -384,8 +384,8 @@ button {
   line-height: 1.5;
   color: var(--color-logo-btn);
 }
-.btn-pf.text-btn-portf:hover,
-.btn-pf.text-btn-portf:focus {
+.text-btn-portf:hover,
+.text-btn-portf:focus {
   color: var(--white-color);
   background-color: var(--btn-bgc-hero-secondry);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
